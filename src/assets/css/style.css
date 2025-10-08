@@ -1,0 +1,43 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid;
+    background-color: lightgray;
+    padding: 30px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+#link_navbar{
+    text-decoration: none;
+    color: black;
+}
+
+#capa{
+    width: 95%;
+    margin: 50px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: grey;
+    
+}
+
+article > h1, p{
+    text-align: justify;
+    padding: 0 30px;
+}
+
+hr{
+    margin: 0 30px;
+}
