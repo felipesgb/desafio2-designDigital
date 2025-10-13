@@ -5,7 +5,6 @@
     border: 0px solid;
     background-color: lightgray;
     padding: 30px;
-
 }
 
 footer{
@@ -15,7 +14,6 @@ footer{
     font-weight: bold;
 }
 
-
 #link_navbar{
     text-decoration: none;
     color: black;
@@ -24,20 +22,59 @@ footer{
 #capa{
     width: 95%;
     margin: 50px auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px;
     background-color: grey;
-    
 }
 
-article > h1, p{
+.main_sobre{
     text-align: justify;
     padding: 0 30px;
 }
 
 hr{
     margin: 0 30px;
+}
+
+.cursos_exemplos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.carousel_index {
+    margin: 50px 120px;
+}
+
+.texto_index {
+    text-align: justify;
+    padding: 0 30px;
+}
+
+.main_contato{
+    text-align: justify;
+    padding: 0 30px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .cursos_exemplos {
+        flex-direction: column;
+    }
+
+    .carousel_index {
+        margin: 30px 0;
+    }
+
+    .main_sobre,
+    .texto_index,
+    .main_contato {
+        padding: 0 15px;
+    }
+
 }

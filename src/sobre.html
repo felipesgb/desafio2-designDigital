@@ -1,47 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR" data-bs-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
 
-    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
-<body>
-    <header class="flex-container">
-        <img src="./assets/imagens/logo.png" alt="logo">
 
-        <nav>
-            <a id="link_navbar" href="./index.html">Home</a> |
-            <a id="link_navbar" href="#" >Sobre</a> | 
-            <a id="link_navbar" href="./contato.html">Contato</a>    
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="./assets/imagens/logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <article>
-                <h1>Quem somos</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem laborum molestiae, ut consequatur exercitationem ipsum, suscipit, iusto nemo quas veritatis officia distinctio! Sapiente, totam minima. Maxime iusto doloribus aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ad aperiam rem. Mollitia animi, impedit earum, tempore rerum, vitae voluptatibus aperiam quibusdam dignissimos saepe quis maxime in odio rem distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officiis eaque ipsum temporibus sit quo architecto illum exercitationem odio praesentium? Quas numquam repudiandae dolorem? Accusantium distinctio soluta debitis cumque quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas alias in aliquam sequi. Dolorum repellat exercitationem nesciunt aspernatur! Voluptate fugiat voluptatem dicta excepturi quos labore similique magni debitis quia sapiente!</p>
+    <main class="main_sobre">
+            <div class="alert alert-info mt-4" role="alert">
+                Cursos com 30% de desconto! Aproveite!
+            </div>
 
-                <h1>5 motivos para estudar</h1>
-                <ol style="margin: 25px;">
-                    <li>Material sempre atualizado</li>
-                    <li>Tablets em sala de aula</li>
-                    <li>Professores renomados</li>
-                    <li>Universidade bem avaliada</li>
-                    <li>Ótima localização</li>
-                </ol>
+            <section>
+                <article>
+                    <h1>Quem somos</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem laborum molestiae, ut consequatur
+                        exercitationem ipsum, suscipit, iusto nemo quas veritatis officia distinctio! Sapiente, totam
+                        minima. Maxime iusto doloribus aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                        ad aperiam rem. Mollitia animi, impedit earum, tempore rerum, vitae voluptatibus aperiam quibusdam
+                        dignissimos saepe quis maxime in odio rem distinctio? Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Minima officiis eaque ipsum temporibus sit quo architecto illum exercitationem
+                        odio praesentium? Quas numquam repudiandae dolorem? Accusantium distinctio soluta debitis cumque
+                        quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas alias in aliquam sequi. Dolorum
+                        repellat exercitationem nesciunt aspernatur! Voluptate fugiat voluptatem dicta excepturi quos labore
+                        similique magni debitis quia sapiente!</p>
 
-                <hr><h1>Objetivos</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, deserunt? Ut accusantium sapiente unde ea consectetur voluptate fugit ipsam libero sint distinctio atque earum, facilis iure commodi possimus quae rerum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, velit sed nesciunt, magni eveniet officiis fuga aliquid non doloremque ex quos mollitia. Nobis rem cupiditate maxime aliquid, consequuntur eius id? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit aliquid asperiores labore assumenda sapiente ipsam inventore ab atque minus aspernatur nisi rerum delectus, temporibus amet quod officia, eveniet laborum?   </p>
-            </article>
-        </section>
-    </main>
+                    <hr>
+                    <h1>5 motivos para estudar</h1>
+                    <ol style="margin-left: 15px; margin-right: 15px;">
+                        <li>Material sempre atualizado</li>
+                        <li>Tablets em sala de aula</li>
+                        <li>Professores renomados</li>
+                        <li>Universidade bem avaliada</li>
+                        <li>Ótima localização</li>
+                    </ol>
+
+                    <hr>
+                    <h1>Objetivos</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, deserunt? Ut accusantium sapiente
+                        unde ea consectetur voluptate fugit ipsam libero sint distinctio atque earum, facilis iure commodi
+                        possimus quae rerum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, velit sed
+                        nesciunt, magni eveniet officiis fuga aliquid non doloremque ex quos mollitia. Nobis rem cupiditate
+                        maxime aliquid, consequuntur eius id? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempora fugit aliquid asperiores labore assumenda sapiente ipsam inventore ab atque minus aspernatur
+                        nisi rerum delectus, temporibus amet quod officia, eveniet laborum? </p>
+
+                    <hr>
+                    <h1>Q&A</h1>
+
+                    <div class="accordion mb-4" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Como é o ensino?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perspiciatis
+                                    perferendis aperiam eos, quibusdam iure! Unde deserunt reiciendis ea. Doloremque
+                                    nostrum vitae est temporibus blanditiis quia culpa praesentium placeat quod. Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt, deserunt cupiditate
+                                    ipsam suscipit excepturi sequi. Iste nulla, earum vero eligendi dolor eius mollitia
+                                    suscipit veritatis vitae ullam, error omnis?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    E os preços?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perspiciatis
+                                    perferendis aperiam eos, quibusdam iure! Unde deserunt reiciendis ea. Doloremque
+                                    nostrum vitae est temporibus blanditiis quia culpa praesentium placeat quod. Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt, deserunt cupiditate
+                                    ipsam suscipit excepturi sequi. Iste nulla, earum vero eligendi dolor eius mollitia
+                                    suscipit veritatis vitae ullam, error omnis?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Quais os cursos?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perspiciatis
+                                    perferendis aperiam eos, quibusdam iure! Unde deserunt reiciendis ea. Doloremque
+                                    nostrum vitae est temporibus blanditiis quia culpa praesentium placeat quod. Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt, deserunt cupiditate
+                                    ipsam suscipit excepturi sequi. Iste nulla, earum vero eligendi dolor eius mollitia
+                                    suscipit veritatis vitae ullam, error omnis?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+        </div> </main>
+    
     <footer>
         Todos os direitos reservados.
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
